@@ -1,25 +1,34 @@
-# ⚖️ HBP LAW FIRM
+# HBP Law Firm — Modern Interactive Website (Dark + Gold) v2
 
-**Advocates & Legal Consultants — Modern Law Firm Based in Jakarta**
+This package contains a modern single-page website optimized for HBP Law Firm.
+Files included:
+- index.html
+- assets/logo.svg (replaceable)
+- assets/pattern.svg
+- assets/favicon.svg
+- assets/wa.svg
+- README.md
 
-HBP Law Firm provides legal services with integrity, precision, and dedication.  
-Our team of advocates specializes in corporate, litigation, employment, and regulatory matters.
+## Hero image (red curtain)
+You chose the red curtain hero image. The hero image file `assets/hero.jpg` is included.
+If you want to replace it later, upload a new `hero.jpg` into `assets/`.
 
----
+## Deploy
+1. Unzip and upload all files/folders to your GitHub repo root.
+2. Go to Settings → Pages and set Source: Branch `main`, Folder `/ (root)`.
+3. Wait 1–2 minutes and open: `https://<your-username>.github.io/hbp-lawfirm/`
 
-📍 **Office Address**  
-JL. Mangga Raya No. 1A, RT. 004, RW. 003,  
-Duri Kepa, Kebon Jeruk, Jakarta Barat  
+## EmailJS integration (direct form sending)
+1. Create an account at https://www.emailjs.com/ (free plan available).
+2. Create an Email Service and Email Template. Note your **User ID**, **Service ID**, and **Template ID**.
+3. Open `index.html`, find the block near `// EmailJS integration` and replace the placeholders:
+   - EMAILJS_USER_ID -> your user id
+   - EMAILJS_SERVICE_ID -> service id
+   - EMAILJS_TEMPLATE_ID -> template id
+4. Commit changes and the form will send without leaving the page.
 
-✉️ **Email:** kantorhukum.hbp@gmail.com  
+## Replace logo
+Upload `logo.svg` or `logo.png` to `assets/` (same name). The site will use it automatically.
 
-📞 **WhatsApp Contacts:**  
-- Adv. Stefanus Billy Yulian, S.H — +62 811 9008 8889  
-- Adv. Hardie, S.H — +62 812 7500 0119  
-- Adv. Roy Fernando, S.H — +62 812 8928 2323
-
----
-
-🔗 **Website**  
-This site is published via GitHub Pages: `https://<your-github-username>.github.io/hbp-lawfirm`
-
+## Change WhatsApp number
+Edit the `href` on the `.wa-floating` element in `index.html` to your preferred WA link (https://wa.me/62...).
