@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
-<g fill="none" stroke="#C6A664" stroke-opacity="0.18" stroke-width="1">
-  <circle cx="400" cy="300" r="260" stroke-width="0.8"/>
-  <path d="M160 300 H640" stroke-width="0.8"/>
-  <path d="M400 40 V560" stroke-width="0.8"/>
-</g>
-</svg>
