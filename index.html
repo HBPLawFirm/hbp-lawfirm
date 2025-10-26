@@ -3,180 +3,133 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>HBP LAW FIRM — Advocates & Legal Consultants</title>
-  <meta name="description" content="HBP Law Firm — Modern legal counsel: Corporate, Litigation, Employment, Regulatory. Contact for consultation." />
-  <style>
-    :root{
-      --bg:#08090a; --panel:#0f1417; --muted:#9aa0a6; --accent:#e6e6e6; --glass: rgba(255,255,255,0.03);
-      --maxw:1100px;
-      font-family: Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
-    }
-    *{box-sizing:border-box}
-    html,body{height:100%;margin:0;background:var(--bg);color:var(--accent);}
-    a{color:inherit;text-decoration:none}
-    .page{max-width:var(--maxw);margin:36px auto;padding:32px;border-radius:12px;background:linear-gradient(180deg, rgba(255,255,255,0.02), transparent);box-shadow:0 8px 40px rgba(0,0,0,0.6)}
-    .header{display:flex;align-items:center;justify-content:space-between;gap:12px}
-    .brand{display:flex;gap:16px;align-items:center}
-    .logo{width:64px;height:64px;border-radius:10px;background:linear-gradient(135deg,#111217,#0f1417);display:grid;place-items:center;font-weight:800;font-size:18px;letter-spacing:1px}
-    .name{font-size:20px;font-weight:700}
-    .subtitle{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:1px}
-    .ctas{display:flex;gap:10px}
-    .btn{padding:10px 14px;border-radius:8px;border:1px solid rgba(255,255,255,0.06);background:var(--glass);cursor:pointer;font-weight:600}
-
-    .hero{display:grid;grid-template-columns:1fr;gap:14px;margin-top:28px}
-    .hero h1{margin:0;font-size:30px;letter-spacing:0.2px}
-    .hero p{margin:0;color:var(--muted);line-height:1.5}
-
-    .grid{display:grid;grid-template-columns:1fr 360px;gap:22px;margin-top:26px}
-    .card{background:rgba(255,255,255,0.02);padding:18px;border-radius:10px;border:1px solid rgba(255,255,255,0.03)}
-    .services ul{list-style:none;padding:0;margin:0;display:grid;gap:10px}
-    .services li{padding:12px;border-radius:8px;background:linear-gradient(180deg, rgba(255,255,255,0.01), transparent);border:1px solid rgba(255,255,255,0.02)}
-
-    .adv-list{display:grid;gap:12px}
-    .adv{display:flex;align-items:center;gap:12px;padding:12px;border-radius:10px;background:rgba(0,0,0,0.25)}
-    .adv .info{flex:1}
-    .adv .name{font-weight:700}
-    .adv .role{font-size:13px;color:var(--muted)}
-    .wa{padding:8px 10px;border-radius:8px;background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border:1px solid rgba(255,255,255,0.03);font-weight:700}
-
-    .contact .meta{display:flex;flex-direction:column;gap:8px}
-    .meta .line{display:flex;align-items:center;gap:10px;color:var(--muted)}
-    .meta .line b{min-width:90px;color:var(--accent)}
-
-    footer{margin-top:22px;text-align:center;color:var(--muted);font-size:13px}
-
-    code{background:rgba(255,255,255,0.02);padding:6px;border-radius:6px;color:var(--muted);font-size:13px}
-
-    @media (max-width:980px){.grid{grid-template-columns:1fr}.page{margin:18px;padding:18px}.ctas{display:none}}
-  </style>
+  <title>HBP Law Firm | Advocates & Legal Consultants</title>
+  <meta name="description" content="HBP Law Firm — Modern Advocates & Legal Consultants in Jakarta. Corporate, litigation, employment and regulatory legal services with integrity and results." />
+  <meta name="keywords" content="law firm, lawyer jakarta, legal consultant, advocate, litigation, corporate law, HBP Law Firm, PERADI" />
+  <link rel="icon" href="assets/favicon.svg" />
+  <link rel="stylesheet" href="assets/style.css" />
 </head>
 <body>
-  <main class="page">
-    <header class="header">
+
+  <header class="site-header">
+    <div class="wrap">
       <div class="brand">
-        <div class="logo">HBP</div>
-        <div>
-          <div class="name">HBP LAW FIRM</div>
-          <div class="subtitle">Advocates & Legal Consultants</div>
+        <div class="logo"><img src="assets/logo-placeholder.png" alt="HBP Law Firm logo"></div>
+        <div class="brand-text">
+          <div class="firm">HBP Law Firm</div>
+          <div class="tag">Advocates & Legal Consultants — Jakarta</div>
         </div>
       </div>
-      <div class="ctas">
-        <a class="btn" href="mailto:kantorhukum.hbp@gmail.com?subject=Konsultasi%20Hukum">Email Office</a>
-        <a class="btn" href="#contact">Contact</a>
-      </div>
-    </header>
 
-    <section class="hero">
-      <h1>Focused. Ethical. Modern Legal Solutions.</h1>
-      <p>HBP Law Firm provides pragmatic legal advice and representation across corporate, litigation, employment, and regulatory matters. Kami mengutamakan hasil yang jelas, strategi yang ringkas, dan etika profesi.</p>
+      <nav class="nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#practice">Practice Areas</a>
+        <a href="#advocates">Advocates</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <main>
+    <section id="home" class="hero" role="banner" aria-label="Hero">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="hero-overlay">
+        <h1>Strength in Advocacy, Success in Action.</h1>
+        <p class="lead">HBP Law Firm provides pragmatic legal advice and representation across corporate, litigation, employment and regulatory matters.</p>
+        <div class="hero-ctas">
+          <a class="btn btn-gold" href="#practice">Practice Areas</a>
+          <a class="btn" href="#contact">Contact Us</a>
+        </div>
+      </div>
     </section>
 
-    <section class="grid">
-      <div>
-        <div class="card services">
-          <h3>Practice Areas</h3>
-          <ul>
-            <li><strong>Corporate & Commercial</strong> — formation, contracts, M&amp;A advisory</li>
-            <li><strong>Litigation & Dispute</strong> — civil litigation, arbitration representation</li>
-            <li><strong>Employment & HR</strong> — contracts, termination, compliance</li>
-            <li><strong>Regulatory & Compliance</strong> — permits, licensing, regulatory advice</li>
-          </ul>
-        </div>
-
-        <div class="card" style="margin-top:16px">
-          <h3>About</h3>
-          <p style="color:var(--muted)">HBP Law Firm adalah firma hukum modern yang berbasis di Jakarta Barat. Kami melayani klien korporat dan individual dengan pendekatan strategis dan transparan.</p>
-          <p style="margin-top:10px;color:var(--muted)"><em>Language:</em> Bahasa Indonesia & English</p>
-        </div>
-
-        <div class="card" style="margin-top:16px">
-          <h3>Our Advocates</h3>
-          <div class="adv-list">
-            <div class="adv">
-              <div class="info">
-                <div class="name">Adv. Stefanus Billy Yulian, S.H</div>
-                <div class="role">Advokat</div>
-                <div class="role" style="color:var(--muted);font-size:13px;margin-top:6px">Email: kantorhukum.hbp@gmail.com</div>
-              </div>
-              <div>
-                <a class="wa" href="https://wa.me/6281190088889" target="_blank" rel="noopener">WhatsApp</a>
-              </div>
-            </div>
-
-            <div class="adv">
-              <div class="info">
-                <div class="name">Adv. Hardie, S.H</div>
-                <div class="role">Advokat</div>
-                <div class="role" style="color:var(--muted);font-size:13px;margin-top:6px">Email: kantorhukum.hbp@gmail.com</div>
-              </div>
-              <div>
-                <a class="wa" href="https://wa.me/6281275000119" target="_blank" rel="noopener">WhatsApp</a>
-              </div>
-            </div>
-
-            <div class="adv">
-              <div class="info">
-                <div class="name">Adv. Roy Fernando, S.H</div>
-                <div class="role">Advokat</div>
-                <div class="role" style="color:var(--muted);font-size:13px;margin-top:6px">Email: kantorhukum.hbp@gmail.com</div>
-              </div>
-              <div>
-                <a class="wa" href="https://wa.me/6281289282323" target="_blank" rel="noopener">WhatsApp</a>
-              </div>
-            </div>
-          </div>
-          <p style="color:var(--muted);margin-top:12px">To add another advocate: copy one of the <code>&lt;div class="adv"&gt;...&lt;/div&gt;</code> blocks above and update the name + wa link.</p>
-        </div>
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="wrap">
+        <h2>About Our Firm</h2>
+        <p>HBP Law Firm is a modern law practice based in West Jakarta. We serve corporate and individual clients with a pragmatic, ethical and result-oriented approach.</p>
       </div>
-
-      <aside class="card contact" id="contact">
-        <h3>Contact & Office</h3>
-        <div class="meta">
-          <div class="line"><b>Email</b> <span>kantorhukum.hbp@gmail.com</span></div>
-          <div class="line"><b>Address</b> <span>JL. Mangga Raya No. 1A, RT.004, RW.003, Duri Kepa, Kebon Jeruk, Jakarta Barat</span></div>
-        </div>
-
-        <hr style="margin:14px 0;border:none;border-top:1px solid rgba(255,255,255,0.03)"/>
-
-        <h4>Quick message</h4>
-        <form onsubmit="event.preventDefault();window.location.href='mailto:kantorhukum.hbp@gmail.com?subject='+encodeURIComponent(document.getElementById('sub').value)+'&body='+encodeURIComponent(document.getElementById('msg').value)" style="display:grid;gap:8px;margin-top:8px">
-          <input id="sub" placeholder="Subject" style="padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:var(--accent)" />
-          <textarea id="msg" placeholder="Write your message" rows="4" style="padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:var(--accent)"></textarea>
-          <button class="btn" type="submit">Send via Email</button>
-        </form>
-
-        <hr style="margin:14px 0;border:none;border-top:1px solid rgba(255,255,255,0.03)"/>
-        <p style="color:var(--muted);font-size:13px">Download contact: <a href="#" id="vcard">vCard</a></p>
-      </aside>
     </section>
 
-    <footer>
-      <small>© <span id="year"></span> HBP Law Firm. All rights reserved.</small>
-    </footer>
+    <!-- PRACTICE AREAS -->
+    <section id="practice" class="section section-dark">
+      <div class="wrap">
+        <h2>Practice Areas</h2>
+        <ul class="grid-list">
+          <li>Corporate & Commercial Law</li>
+          <li>Litigation & Dispute Resolution</li>
+          <li>Employment & Labor Law</li>
+          <li>Regulatory & Compliance</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ADVOCATES -->
+    <section id="advocates" class="section">
+      <div class="wrap">
+        <h2>Our Advocates</h2>
+        <div class="adv-grid">
+          <article class="adv-card">
+            <h3>Adv. Stefanus Billy Yulian, S.H</h3>
+            <p class="role">Advokat</p>
+            <p class="contact">WhatsApp: <a href="https://wa.me/6281190088889" target="_blank">+62 811 9008 8889</a></p>
+          </article>
+
+          <article class="adv-card">
+            <h3>Adv. Hardie, S.H</h3>
+            <p class="role">Advokat</p>
+            <p class="contact">WhatsApp: <a href="https://wa.me/6281275000119" target="_blank">+62 812 7500 0119</a></p>
+          </article>
+
+          <article class="adv-card">
+            <h3>Adv. Roy Fernando, S.H</h3>
+            <p class="role">Advokat</p>
+            <p class="contact">WhatsApp: <a href="https://wa.me/6281289282323" target="_blank">+62 812 8928 2323</a></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section section-dark">
+      <div class="wrap contact-wrap">
+        <div class="contact-left">
+          <h2>Contact & Office</h2>
+          <p><strong>Email:</strong> <a href="mailto:kantorhukum.hbp@gmail.com">kantorhukum.hbp@gmail.com</a></p>
+          <p><strong>Address:</strong> JL. Mangga Raya No. 1A, RT.004, RW.003, Duri Kepa, Kebon Jeruk, Jakarta Barat</p>
+          <p><strong>Website:</strong> <a href="https://hbplawfirm.github.io/hbp-lawfirm/">www.hbplawfirm.com</a></p>
+        </div>
+
+        <div class="contact-right">
+          <form id="contactForm">
+            <label for="name">Name</label>
+            <input id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input id="email" type="email" name="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit" class="btn btn-gold">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
   </main>
 
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>© 2025 HBP Law Firm. All rights reserved.</p>
+      <p>Member of PERADI</p>
+      <p><a href="https://hbplawfirm.github.io/hbp-lawfirm/">www.hbplawfirm.com</a></p>
+    </div>
+  </footer>
 
-    (function(){
-      const vcard = [
-        'BEGIN:VCARD',
-        'VERSION:3.0',
-        'FN:HBP Law Firm',
-        'ORG:HBP Law Firm;',
-        'TITLE:Advocates & Legal Consultants',
-        'TEL;TYPE=WORK,VOICE:+6281190088889',
-        'EMAIL:kantorhukum.hbp@gmail.com',
-        'ADR:;;JL. Mangga Raya No. 1A, RT.004, RW.003, Duri Kepa, Kebon Jeruk;Jakarta Barat;DKI Jakarta;Indonesia',
-        'END:VCARD'
-      ].join('\r\n');
-
-      const blob = new Blob([vcard], {type: 'text/vcard'});
-      const url = URL.createObjectURL(blob);
-      const a = document.getElementById('vcard');
-      a.href = url;
-      a.download = 'hbp-lawfirm.vcf';
-    })();
-  </script>
+  <!-- Floating WhatsApp button inserted by script.js -->
+  <script src="assets/script.js"></script>
 </body>
 </html>
