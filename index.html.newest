@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HBP Law Firm | Advocates & Legal Consultants</title>
+  <meta name="description" content="HBP Law Firm — Advocates & Legal Consultants in Jakarta, Indonesia. Providing legal services in litigation, corporate, and business law with professionalism and integrity." />
+  <meta name="keywords" content="law firm, lawyer jakarta, attorney, legal consultant, litigation, corporate law, indonesia, HBP Law Firm, advocate, PERADI, legal services" />
+  <link rel="icon" href="assets/favicon.svg" />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Times New Roman', serif;
+      background-color: #0c0c0c;
+      color: #d4af37;
+      scroll-behavior: smooth;
+    }
+    header {
+      position: fixed;
+      width: 100%;
+      top: 0;
+      background: rgba(12,12,12,0.95);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 5%;
+      z-index: 1000;
+    }
+    header h1 {
+      font-size: 1.4rem;
+      letter-spacing: 2px;
+      color: #d4af37;
+    }
+    nav a {
+      color: #d4af37;
+      margin-left: 20px;
+      text-decoration: none;
+      font-size: 0.95rem;
+      transition: color 0.3s ease;
+    }
+    nav a:hover { color: #fff; }
+
+    .hero {
+      height: 100vh;
+      background: url('assets/hero.jpg') center/cover no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: #fff;
+    }
+    .hero h2 {
+      font-size: 2.5rem;
+      background: rgba(0,0,0,0.6);
+      padding: 20px 40px;
+      border: 1px solid #d4af37;
+      letter-spacing: 1px;
+    }
+
+    section {
+      padding: 100px 10%;
+    }
+    h3 {
+      font-size: 1.6rem;
+      margin-bottom: 15px;
+      border-bottom: 1px solid #d4af37;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+    p { line-height: 1.8; margin-top: 10px; }
+
+    .practice, .advocates, .contact {
+      background: #111;
+      margin-top: 60px;
+      border-radius: 10px;
+      padding: 60px 8%;
+    }
+
+    .advocate-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      margin-top: 30px;
+    }
+    .advocate-card {
+      background: #0f0f0f;
+      border: 1px solid #2b2b2b;
+      border-radius: 10px;
+      padding: 25px;
+      text-align: center;
+      transition: 0.3s;
+    }
+    .advocate-card:hover {
+      border-color: #d4af37;
+      transform: translateY(-5px);
+    }
+    .advocate-card h4 { color: #fff; margin-bottom: 8px; }
+    .advocate-card a {
+      color: #d4af37;
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+
+    .contact form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      margin-top: 20px;
+    }
+    input, textarea {
+      padding: 10px;
+      border: 1px solid #d4af37;
+      background: transparent;
+      color: #fff;
+    }
+    button {
+      padding: 10px;
+      background: #d4af37;
+      border: none;
+      color: #000;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    button:hover { background: #fff; }
+
+    footer {
+      text-align: center;
+      padding: 40px 10%;
+      background: #0a0a0a;
+      font-size: 0.9rem;
+      color: #aaa;
+      border-top: 1px solid #2b2b2b;
+    }
+
+    .wa-floating {
+      position: fixed;
+      bottom: 25px;
+      right: 25px;
+      background: #25D366;
+      color: white;
+      border-radius: 50%;
+      padding: 15px;
+      font-size: 24px;
+      text-decoration: none;
+      z-index: 1000;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+      transition: 0.3s;
+    }
+    .wa-floating:hover { transform: scale(1.1); }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>HBP Law Firm</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#practice">Practice Areas</a>
+      <a href="#advocates">Advocates</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h2>Advocates & Legal Consultants in Jakarta</h2>
+  </div>
+
+  <section id="about">
+    <h3>About Us</h3>
+    <p>HBP Law Firm is a modern legal practice based in Jakarta, Indonesia, providing a full range of legal services for individuals and corporations. Our team is composed of experienced advocates and legal consultants, dedicated to upholding integrity, precision, and justice.</p>
+  </section>
+
+  <section id="practice" class="practice">
+    <h3>Practice Areas</h3>
+    <p>We specialize in:</p>
+    <ul style="margin-left: 20px; margin-top:10px; line-height:1.8;">
+      <li>Litigation & Dispute Resolution</li>
+      <li>Corporate & Business Law</li>
+      <li>Criminal & Civil Law</li>
+      <li>Employment & Industrial Relations</li>
+      <li>Contract Drafting & Legal Opinions</li>
+    </ul>
+  </section>
+
+  <section id="advocates" class="advocates">
+    <h3>Our Advocates</h3>
+    <div class="advocate-list">
+      <div class="advocate-card">
+        <h4>Adv. Stefanus Billy Yulian, S.H</h4>
+        <a href="https://wa.me/6281190088889">Chat on WhatsApp</a>
+      </div>
+      <div class="advocate-card">
+        <h4>Adv. Hardie, S.H</h4>
+        <a href="https://wa.me/6281275000119">Chat on WhatsApp</a>
+      </div>
+      <div class="advocate-card">
+        <h4>Adv. Roy Fernando, S.H</h4>
+        <a href="https://wa.me/6281289282323">Chat on WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h3>Contact & Office</h3>
+    <p>Address: JL. Mangga Raya No. 1A, RT. 004, RW. 003, Duri Kepa, Kebon Jeruk, Jakarta Barat</p>
+    <p>Email: kantorhukum.hbp@gmail.com</p>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 HBP Law Firm. All rights reserved.</p>
+    <p>Member of PERADI</p>
+    <p><a href="https://www.hbplawfirm.com" style="color:#d4af37; text-decoration:none;">www.hbplawfirm.com</a></p>
+  </footer>
+
+  <a href="https://wa.me/6281190088889" class="wa-floating">💬</a>
+
+</body>
+</html>
