@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="HBP Law Firm — Advocates & Legal Consultants in Jakarta. Providing expert legal solutions with integrity and excellence. Member of PERADI.">
+  <meta name="keywords" content="law firm jakarta, advocate, lawyer indonesia, legal consultant, HBP law firm, PERADI">
+  <title>HBP Law Firm | Advocates & Legal Consultants</title>
+  <link rel="stylesheet" href="assets/style.css" />
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <header>
+    <div class="logo">HBP Law Firm</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#practice">Practice Areas</a>
+      <a href="#advocates">Advocates</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="overlay">
+      <h1>Advocates & Legal Consultants in Jakarta</h1>
+      <p>Integrity. Precision. Justice.</p>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <h2>About Our Firm</h2>
+    <p>HBP Law Firm is a modern legal practice based in Jakarta, dedicated to providing comprehensive and ethical legal services. We believe in precision, commitment, and the pursuit of justice for every client we represent.</p>
+  </section>
+
+  <!-- PRACTICE AREAS -->
+  <section id="practice" class="section dark">
+    <h2>Practice Areas</h2>
+    <ul>
+      <li>Corporate & Commercial Law</li>
+      <li>Civil & Criminal Litigation</li>
+      <li>Employment & Labor Law</li>
+      <li>Property & Real Estate</li>
+      <li>Family & Inheritance Law</li>
+    </ul>
+  </section>
+
+  <!-- ADVOCATES -->
+  <section id="advocates" class="section">
+    <h2>Our Advocates</h2>
+    <div class="advocates">
+      <div class="advocate">
+        <h3>Adv. Stefanus Billy Yulian, S.H</h3>
+        <p>WhatsApp: <a href="https://wa.me/6281190088889" target="_blank">+62 811 9008 8889</a></p>
+      </div>
+      <div class="advocate">
+        <h3>Adv. Hardie, S.H</h3>
+        <p>WhatsApp: <a href="https://wa.me/6281275000119" target="_blank">+62 812 7500 0119</a></p>
+      </div>
+      <div class="advocate">
+        <h3>Adv. Roy Fernando, S.H</h3>
+        <p>WhatsApp: <a href="https://wa.me/6281289282323" target="_blank">+62 812 8928 2323</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section dark">
+    <h2>Contact & Office</h2>
+    <p>Email: <a href="mailto:kantorhukum.hbp@gmail.com">kantorhukum.hbp@gmail.com</a></p>
+    <p>Address: JL. Mangga Raya No. 1A, RT.004/RW.003, Duri Kepa, Kebon Jeruk, Jakarta Barat</p>
+
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 HBP Law Firm. All rights reserved. | Member of PERADI</p>
+    <p><a href="https://hbplawfirm.github.io/hbp-lawfirm/">www.hbplawfirm.com</a></p>
+  </footer>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
