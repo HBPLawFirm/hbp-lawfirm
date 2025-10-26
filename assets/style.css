@@ -1,3 +1,18 @@
+/* hero background */
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  background-image: url('hero.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.8) contrast(1);
+}
+
+/* lanjut ke style-style lain kamu */
+body {
+  font-family: 'Merriweather', serif;
+  ...
+}
 :root{
   --bg:#060606;
   --panel:#0f0f0f;
